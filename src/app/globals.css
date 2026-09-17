@@ -1,0 +1,16 @@
+:root {
+  --bg: #0f0e0c;
+  --ink: #f4efe6;
+  --muted: #9a9186;
+  --chip: #1c1a17;
+  --line: #2a2723;
+  --accent: #d9773a;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: ui-sans-serif, system-ui, sans-serif; }
+button { font: inherit; cursor: pointer; border: 0; }
+a { color: inherit; }
+.hide-scroll::-webkit-scrollbar { display: none; }
+.safe-top { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
