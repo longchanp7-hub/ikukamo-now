@@ -1,0 +1,8 @@
+{
+  "name": "ikukamo-now",
+  "short_name": "ikukamo-now",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a"
+}
